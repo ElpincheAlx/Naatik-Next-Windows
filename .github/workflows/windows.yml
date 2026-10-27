@@ -1,0 +1,27 @@
+name: Windows port
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          architecture: x64
+      - name: Install isolated base
+        run: python tools/install_windows.py
+      - name: Install Japanese analysis
+        run: python tools/install_windows.py --phrase
+      - name: Install MangaOCR CPU dependencies without models
+        run: python tools/install_windows.py --manga-cpu
+      - name: Verify using temporary profile
+        run: .venv\Scripts\python.exe tools\verify_windows.py
+      - name: Retain Windows locks and resolution evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-dependency-evidence
+          path: |
+            locks/*-windows.lock
+            locks/*-report.json

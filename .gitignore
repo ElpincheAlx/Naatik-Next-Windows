@@ -1,0 +1,13 @@
+.venv*/
+__pycache__/
+*.pyc
+.wheelhouse*/
+.profile*/
+*.log
+
+.python*/
+*-install.txt
+*-test.txt
+validation-run.txt
+dist/
+review-dist/

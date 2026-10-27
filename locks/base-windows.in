@@ -1,0 +1,17 @@
+# CPython 3.13 Windows x64; fixed seed; Windows artifact hashes generated before installation.
+argostranslate==1.11.0
+click==8.4.2
+ctranslate2==4.8.1
+joblib==1.5.3
+numpy==2.5.2
+packaging==26.3
+pillow==12.3.0
+pyside6-essentials==6.11.1
+pyyaml==6.0.3
+regex==2026.7.19
+sacremoses==0.1.1
+sentencepiece==0.2.2
+setuptools==84.0.0
+shiboken6==6.11.1
+tqdm==4.70.0
+colorama==0.4.6

@@ -1,0 +1,40 @@
+Na’atik Next 1.0 Windows bilingüe — 2026-10-25
+
+Cambios: selección ES/EN antes de instalar, catálogos compartidos, interfaz y
+tutorial traducidos, Configuración/Settings > Idioma/Language, persistencia
+independiente del OCR y de traducción. Se conserva el tutorial inicial y la ayuda
+del editor cuando faltan diccionarios. No se añaden modelos ni dependencias.
+
+Entorno real de compilación: Windows 10.0.19045 x64, CPython 3.13.17 estándar,
+entorno .venv propio con dependencias base fijadas por los locks Windows.
+No se utilizó el perfil habitual ni se instaló sobre la copia habitual.
+
+EJECUTADO
+- tools/verify_windows.py, ES: 113 pruebas, 110 correctas, 3 omitidas (40.413 s).
+- tools/verify_windows.py, EN: 113 pruebas, 110 correctas, 3 omitidas (41.177 s).
+- Omisiones: enumeración de fuentes en offscreen y dos pruebas del entorno
+  opcional de análisis japonés, no instalado para esta revisión.
+- Cobertura automatizada: tutorial nuevo/anterior, omitir/reanudar/completar,
+  captura sin tutorial, diccionarios y reintento, persistencia ES/EN, separación
+  de idioma OCR/traducción, conservación de preferencias, IPC/cierre/procesos.
+- tools/verify_installer.ps1: formularios reales instanciados automáticamente;
+  selección obligatoria, botón inicialmente deshabilitado, sin trabajo automático,
+  ES/EN, preselección al reparar y preferencias intactas. Lector PowerShell 5
+  de ambos catálogos probado. No se pulsó Instalar en estas pruebas.
+- Revisión visual de imágenes Qt offscreen en ES/EN y del instalador renderizado
+  automáticamente fuera de pantalla: selección, etiquetas, tutorial, OCR,
+  diccionarios, configuración de idioma y ayudas extensas. Fuentes del sistema
+  cargadas solo en el proceso de prueba; no se redistribuyen.
+
+PENDIENTE / NO ACREDITADO
+- Instalación y reparación completas interactivas en VM o Windows limpio.
+- Captura real, portapapeles global, atajos, bandeja y Stream Deck en escritorio.
+- Inferencia con modelos OCR/traducción descargados y envío real a Anki.
+- Revisión de cada mensaje de error, todos los DPI y versiones Windows.
+- Ejecución del flujo GitHub Actions (su configuración no es evidencia de éxito).
+No se presentan pruebas offscreen ni formularios automatizados como interacción
+humana. Los informes históricos conservados en docs corresponden a revisiones
+anteriores; este documento describe la revisión bilingüe actual.
+
+El archivo VALIDACION.txt junto al EXE registra además la reconstrucción final
+y la comparación de las fuentes extraídas mediante --extract.

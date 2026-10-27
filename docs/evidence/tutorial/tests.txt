@@ -1,0 +1,161 @@
+test_corrupt_journal_and_disk_failure_block (tests.test_anki.AnkiTests.test_corrupt_journal_and_disk_failure_block) ... ok
+test_invalid_id_is_uncertain (tests.test_anki.AnkiTests.test_invalid_id_is_uncertain) ... ok
+test_lost_response_reconciles_without_resend (tests.test_anki.AnkiTests.test_lost_response_reconciles_without_resend) ... ok
+test_metadata_never_writes (tests.test_anki.AnkiTests.test_metadata_never_writes) ... ok
+test_single_write_and_private_journal (tests.test_anki.AnkiTests.test_single_write_and_private_journal) ... ok
+test_validation_and_endpoint (tests.test_anki.AnkiTests.test_validation_and_endpoint) ... ok
+test_zero_changed_multiple_results_stay_uncertain (tests.test_anki.AnkiTests.test_zero_changed_multiple_results_stay_uncertain) ... ok
+test_guided_setup_edit_cancel_and_two_drafts (tests.test_anki.GuiTests.test_guided_setup_edit_cancel_and_two_drafts) ... This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+ok
+test_permission_and_key_not_confused_with_metadata (tests.test_anki.ParsingTests.test_permission_and_key_not_confused_with_metadata) ... ok
+test_transport_errors_limits_and_no_retry_or_redirect (tests.test_anki.ParsingTests.test_transport_errors_limits_and_no_retry_or_redirect) ... ok
+test_ephemeral_loopback_http (tests.test_anki.TransportTests.test_ephemeral_loopback_http) ... skipped 'Sandbox denies loopback listener'
+test_failed_save_retains_previous_settings_and_appearance (tests.test_appearance.AppearanceTests.test_failed_save_retains_previous_settings_and_appearance) ... ok
+test_font_color_validation_missing_font_and_contrast (tests.test_appearance.AppearanceTests.test_font_color_validation_missing_font_and_contrast) ... ok
+test_preview_cancel_and_defaults_never_persist_or_change_live_text (tests.test_appearance.AppearanceTests.test_preview_cancel_and_defaults_never_persist_or_change_live_text) ... This plugin does not support raise()
+ok
+test_save_applies_to_existing_and_future_popups_and_restart (tests.test_appearance.AppearanceTests.test_save_applies_to_existing_and_future_popups_and_restart) ... This plugin does not support raise()
+This plugin does not support raise()
+ok
+test_theme_and_color_reset_are_scoped_to_draft (tests.test_appearance.AppearanceTests.test_theme_and_color_reset_are_scoped_to_draft) ... ok
+test_additive_migration_preserves_plain_rows (tests.test_dictionary_content.DictionaryContentTests.test_additive_migration_preserves_plain_rows) ... ok
+test_bounds_and_unknown_nodes (tests.test_dictionary_content.DictionaryContentTests.test_bounds_and_unknown_nodes) ... ok
+test_late_unsafe_content_rolls_back (tests.test_dictionary_content.DictionaryContentTests.test_late_unsafe_content_rolls_back) ... ok
+test_lossless_tree_and_row_metadata_render_and_persistence (tests.test_dictionary_content.DictionaryContentTests.test_lossless_tree_and_row_metadata_render_and_persistence) ... ok
+test_text_escaped_styles_not_executed_resources_blocked (tests.test_dictionary_content.DictionaryContentTests.test_text_escaped_styles_not_executed_resources_blocked) ... ok
+test_actual_multi_file_preview_and_sequential_workers_offscreen (tests.test_multidictionary.MultiDictionaryTests.test_actual_multi_file_preview_and_sequential_workers_offscreen) ... ok
+test_all_types_lossless_association_render_activation_delete (tests.test_multidictionary.MultiDictionaryTests.test_all_types_lossless_association_render_activation_delete) ... ok
+test_batch_cancel_does_not_start_remaining_files_or_remove_existing (tests.test_multidictionary.MultiDictionaryTests.test_batch_cancel_does_not_start_remaining_files_or_remove_existing) ... ok
+test_cancel_after_commit_before_ack_reports_existing_complete_import (tests.test_multidictionary.MultiDictionaryTests.test_cancel_after_commit_before_ack_reports_existing_complete_import) ... ok
+test_cancel_mixed_transaction_and_changed_preview (tests.test_multidictionary.MultiDictionaryTests.test_cancel_mixed_transaction_and_changed_preview) ... ok
+test_migration_keeps_old_rows_metadata_settings_and_is_idempotent (tests.test_multidictionary.MultiDictionaryTests.test_migration_keeps_old_rows_metadata_settings_and_is_idempotent) ... ok
+test_pattern_text_and_untrusted_kanji_are_escaped (tests.test_multidictionary.MultiDictionaryTests.test_pattern_text_and_untrusted_kanji_are_escaped) ... ok
+test_review_blocked_duplicates_and_warnings_require_explicit_selection (tests.test_multidictionary.MultiDictionaryTests.test_review_blocked_duplicates_and_warnings_require_explicit_selection) ... ok
+test_unsupported_modes_explicit_and_invalid_pitch_rollback (tests.test_multidictionary.MultiDictionaryTests.test_unsupported_modes_explicit_and_invalid_pitch_rollback) ... ok
+test_anki_snapshot_is_owned_by_composer_and_never_sends_on_open (tests.test_popups.PopupTests.test_anki_snapshot_is_owned_by_composer_and_never_sends_on_open) ... This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+ok
+test_cancel_and_close_invalidate_all_queued_results (tests.test_popups.PopupTests.test_cancel_and_close_invalidate_all_queued_results) ... This plugin does not support raise()
+This plugin does not support raise()
+ok
+test_cancel_during_route_discovery_cannot_restart_processing (tests.test_popups.PopupTests.test_cancel_during_route_discovery_cannot_restart_processing) ... This plugin does not support raise()
+ok
+test_capture_copy_after_popup_only_boot_prepares_ocr_on_demand (tests.test_popups.PopupTests.test_capture_copy_after_popup_only_boot_prepares_ocr_on_demand) ... This plugin does not support raise()
+ok
+test_empty_clipboard_has_editable_popup_without_old_ocr_fallback (tests.test_popups.PopupTests.test_empty_clipboard_has_editable_popup_without_old_ocr_fallback) ... This plugin does not support raise()
+ok
+test_escape_cancels_debounce_and_hides_without_quitting_owner (tests.test_popups.PopupTests.test_escape_cancels_debounce_and_hides_without_quitting_owner) ... This plugin does not support raise()
+ok
+test_exact_lookup_and_safe_furigana_do_not_replace_translation (tests.test_popups.PopupTests.test_exact_lookup_and_safe_furigana_do_not_replace_translation) ... This plugin does not support raise()
+ok
+test_independent_clipboard_actions_reuse_each_popup_and_never_capture (tests.test_popups.PopupTests.test_independent_clipboard_actions_reuse_each_popup_and_never_capture) ... This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+This plugin does not support raise()
+ok
+test_installed_resources_validate_without_download_and_preserve_default (tests.test_popups.PopupTests.test_installed_resources_validate_without_download_and_preserve_default) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+ok
+test_missing_resources_are_explicit_and_downloads_need_confirmation (tests.test_popups.PopupTests.test_missing_resources_are_explicit_and_downloads_need_confirmation) ... This plugin does not support raise()
+ok
+test_model_removal_refreshes_popup_automatically (tests.test_popups.PopupTests.test_model_removal_refreshes_popup_automatically) ... This plugin does not support raise()
+ok
+test_popup_keeps_installed_route_switching_without_install_controls (tests.test_popups.PopupTests.test_popup_keeps_installed_route_switching_without_install_controls) ... This plugin does not support raise()
+ok
+test_rapid_edit_coalesces_and_rejects_old_translation_and_error (tests.test_popups.PopupTests.test_rapid_edit_coalesces_and_rejects_old_translation_and_error) ... This plugin does not support raise()
+ok
+test_route_change_discards_translation_and_keeps_definition_separate (tests.test_popups.PopupTests.test_route_change_discards_translation_and_keeps_definition_separate) ... This plugin does not support raise()
+ok
+test_selection_tooltip_and_cancel_remain_safe (tests.test_popups.PopupTests.test_selection_tooltip_and_cancel_remain_safe) ... This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+ok
+test_source_layout_and_independent_reading_cards (tests.test_popups.PopupTests.test_source_layout_and_independent_reading_cards) ... This plugin does not support raise()
+This plugin does not support raise()
+ok
+test_translation_cancel_stale_result_error_and_retry (tests.test_popups.PopupTests.test_translation_cancel_stale_result_error_and_retry) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+ok
+test_translation_journey_confirmation_runtime_install_validate_and_return (tests.test_popups.PopupTests.test_translation_journey_confirmation_runtime_install_validate_and_return) ... This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+ok
+test_word_expansion_stale_reply_and_replaced_cards (tests.test_popups.PopupTests.test_word_expansion_stale_reply_and_replaced_cards) ... This plugin does not support raise()
+ok
+test_fresh_source_copy_without_optional_runtime_or_models (tests.test_popups.PopupWorkerTests.test_fresh_source_copy_without_optional_runtime_or_models) ... ok
+test_local_argos_import_is_managed_deduplicated_and_rejects_traversal (tests.test_popups.PopupWorkerTests.test_local_argos_import_is_managed_deduplicated_and_rejects_traversal) ... ok
+test_owned_analyzer_real_when_prepared (tests.test_popups.PopupWorkerTests.test_owned_analyzer_real_when_prepared) ... skipped 'Prepare the optional Next phrase environment for real analysis'
+test_real_offscreen_popup_boot_residency_and_later_main_window (tests.test_popups.PopupWorkerTests.test_real_offscreen_popup_boot_residency_and_later_main_window) ... ok
+test_real_phrase_popup_analyzes_and_renders_imported_dictionary (tests.test_popups.PopupWorkerTests.test_real_phrase_popup_analyzes_and_renders_imported_dictionary) ... skipped 'Optional Next-owned phrase runtime absent'
+test_real_popup_dictionary_worker_respects_priority_and_activation (tests.test_popups.PopupWorkerTests.test_real_popup_dictionary_worker_respects_priority_and_activation) ... ok
+test_real_worker_missing_argos_and_exact_dictionary_contract (tests.test_popups.PopupWorkerTests.test_real_worker_missing_argos_and_exact_dictionary_contract) ... ok
+test_tiny_capture_is_not_enlarged_or_cropped (tests.test_preview.PreviewTests.test_tiny_capture_is_not_enlarged_or_cropped) ... ok
+test_whole_image_remains_visible_after_resize (tests.test_preview.PreviewTests.test_whole_image_remains_visible_after_resize) ... ok
+test_actual_worker_error_keeps_event_loop_running (tests.test_processes.ProcessTests.test_actual_worker_error_keeps_event_loop_running) ... ok
+test_cancel_actual_running_import_and_rollback (tests.test_processes.ProcessTests.test_cancel_actual_running_import_and_rollback) ... ok
+test_close_is_terminal_idempotent_and_stops_cancel_timer (tests.test_processes.ProcessTests.test_close_is_terminal_idempotent_and_stops_cancel_timer) ... ok
+test_closing_active_worker_is_silent (tests.test_processes.ProcessTests.test_closing_active_worker_is_silent) ... ok
+test_gui_provenance_and_preferences (tests.test_processes.ProcessTests.test_gui_provenance_and_preferences) ... ok
+test_old_callbacks_rejected_after_explicit_reopen (tests.test_processes.ProcessTests.test_old_callbacks_rejected_after_explicit_reopen) ... ok
+test_timeout_actual_worker (tests.test_processes.ProcessTests.test_timeout_actual_worker) ... ok
+test_translation_uses_edit_snapshot_without_overwriting_original_or_dictionary (tests.test_processes.ProcessTests.test_translation_uses_edit_snapshot_without_overwriting_original_or_dictionary) ... ok
+test_one_shot_probe_finishes_without_waiting_for_stdin_close (tests.test_setup_progress.MangaProbeLifecycleTests.test_one_shot_probe_finishes_without_waiting_for_stdin_close) ... ok
+test_persistent_probe_accepts_a_second_request (tests.test_setup_progress.MangaProbeLifecycleTests.test_persistent_probe_accepts_a_second_request) ... ok
+test_installer_output_arrives_before_process_exits (tests.test_setup_progress.SetupProgressTests.test_installer_output_arrives_before_process_exits) ... ok
+test_setup_progress_success_error_and_control_state (tests.test_setup_progress.SetupProgressTests.test_setup_progress_success_error_and_control_state) ... ok
+test_cancel_after_inserts_rolls_back (tests.test_storage.StorageTests.test_cancel_after_inserts_rolls_back) ... ok
+test_duplicate_hash_and_title_revision (tests.test_storage.StorageTests.test_duplicate_hash_and_title_revision) ... ok
+test_duplicate_members_symlinks_and_bomb (tests.test_storage.StorageTests.test_duplicate_members_symlinks_and_bomb) ... ok
+test_import_lookup_priority_activation_persistence_safe_remove (tests.test_storage.StorageTests.test_import_lookup_priority_activation_persistence_safe_remove) ... ok
+test_invalid_and_non_zip (tests.test_storage.StorageTests.test_invalid_and_non_zip) ... ok
+test_late_invalid_entry_rolls_back (tests.test_storage.StorageTests.test_late_invalid_entry_rolls_back) ... ok
+test_unsafe_paths_and_unsupported_payload (tests.test_storage.StorageTests.test_unsafe_paths_and_unsupported_payload) ... ok
+test_windows_settings_and_corrupt_error (tests.test_storage.StorageTests.test_windows_settings_and_corrupt_error) ... ok
+test_background_and_popup (tests.test_tutorial.TutorialTests.test_background_and_popup) ... ok
+test_complete_restart (tests.test_tutorial.TutorialTests.test_complete_restart) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_help_reopen (tests.test_tutorial.TutorialTests.test_help_reopen) ... This plugin does not support propagateSizeHints()
+ok
+test_legacy_profile (tests.test_tutorial.TutorialTests.test_legacy_profile) ... ok
+test_new_profile (tests.test_tutorial.TutorialTests.test_new_profile) ... This plugin does not support propagateSizeHints()
+ok
+test_preferences_and_resource_evidence_preserved (tests.test_tutorial.TutorialTests.test_preferences_and_resource_evidence_preserved) ... ok
+test_resume_and_close (tests.test_tutorial.TutorialTests.test_resume_and_close) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_save_failure (tests.test_tutorial.TutorialTests.test_save_failure) ... ok
+test_skip_restart (tests.test_tutorial.TutorialTests.test_skip_restart) ... This plugin does not support propagateSizeHints()
+ok
+test_window_startup_and_help_wiring (tests.test_tutorial.TutorialTests.test_window_startup_and_help_wiring) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_console_translation_loads_native_dlls_without_qt_import (tests.test_windows_port.WindowsPortTests.test_console_translation_loads_native_dlls_without_qt_import) ... ok
+test_generated_launcher_no_clobber (tests.test_windows_port.WindowsPortTests.test_generated_launcher_no_clobber) ... ok
+test_installer_rejects_untrusted_hashes_and_platforms (tests.test_windows_port.WindowsPortTests.test_installer_rejects_untrusted_hashes_and_platforms) ... ok
+test_integration_literal_unicode_and_metacharacters (tests.test_windows_port.WindowsPortTests.test_integration_literal_unicode_and_metacharacters) ... ok
+test_named_pipe_locator_cannot_redirect_to_other_profile (tests.test_windows_port.WindowsPortTests.test_named_pipe_locator_cannot_redirect_to_other_profile) ... ok
+test_ocr_tools_use_unicode_subprocess_output (tests.test_windows_port.WindowsPortTests.test_ocr_tools_use_unicode_subprocess_output) ... ok
+test_offscreen_does_not_claim_hotkey_registered (tests.test_windows_port.WindowsPortTests.test_offscreen_does_not_claim_hotkey_registered) ... ok
+test_profile_is_independent_of_xdg (tests.test_windows_port.WindowsPortTests.test_profile_is_independent_of_xdg) ... ok
+test_progress_reader_handles_windows_style_pipes (tests.test_windows_port.WindowsPortTests.test_progress_reader_handles_windows_style_pipes) ... ok
+test_relative_profile_rejected (tests.test_windows_port.WindowsPortTests.test_relative_profile_rejected) ... ok
+test_selector_preserves_native_pixels_at_200_percent (tests.test_windows_port.WindowsPortTests.test_selector_preserves_native_pixels_at_200_percent) ... ok
+test_shortcut_ids_do_not_collide (tests.test_windows_port.WindowsPortTests.test_shortcut_ids_do_not_collide) ... ok
+test_shortcuts_bound_to_windows_key_range (tests.test_windows_port.WindowsPortTests.test_shortcuts_bound_to_windows_key_range) ... ok
+test_windows_job_terminates_descendant (tests.test_windows_port.WindowsPortTests.test_windows_job_terminates_descendant) ... skipped 'Requires real Windows kernel'
+
+----------------------------------------------------------------------
+Ran 102 tests in 6.778s
+
+OK (skipped=4)
